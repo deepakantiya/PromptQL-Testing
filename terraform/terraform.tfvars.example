@@ -1,0 +1,23 @@
+# Example configuration values for OCI Load Balancer deployment.
+
+# Load Balancer
+load_balancer_name="example-load-balancer"
+load_balancer_ip="x.x.x.x"
+
+# Backend Set
+backend_set_name="example-backend-set"
+backend_servers=[
+    {"ip_address": "y.y.y.y", "port": 80},
+    {"ip_address": "z.z.z.z", "port": 80}
+]
+
+# Health Check Configuration
+health_check_interval_in_seconds=30
+health_check_timeout_in_seconds=5
+health_check_retries=3
+health_check_url="/"
+
+# Listener Configuration
+listener_name="example-listener"
+listener_port=80
+listener_protocol="HTTP"

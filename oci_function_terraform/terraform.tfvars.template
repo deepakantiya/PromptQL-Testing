@@ -1,0 +1,20 @@
+# OCI CIS Scanner Function - Configuration Template
+# ==================================================
+
+# Your OCI region
+region = "us-sanjose-1"
+
+# Compartment to deploy resources into
+compartment_ocid = "ocid1.compartment.oc1..<YOUR_COMPARTMENT_OCID>"
+
+# Your tenancy OCID
+tenancy_ocid = "ocid1.tenancy.oc1..<YOUR_TENANCY_ID>"
+
+# Your user OCID  
+user_ocid = "ocid1.user.oc1..<YOUR_USER_ID>"
+
+# API key fingerprint
+fingerprint = "aa:bb:cc:dd:ee:ff:00:11:22:33:44:55:66:77:88:99"
+
+# Path to your API private key file
+private_key_path = "~/.oci/oci_api_key.pem"

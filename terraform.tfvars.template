@@ -1,0 +1,18 @@
+# ============================================================================
+# OCI CIS Remediation - Terraform Variables
+# ============================================================================
+# Copy this file to terraform.tfvars and update with your values
+# ============================================================================
+
+# Your OCI Tenancy OCID (found in OCI Console > Administration > Tenancy Details)
+tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Your preferred OCI region
+region = "us-ashburn-1"
+
+# Compartment where security resources will be created
+# Use tenancy_ocid for root compartment, or specify a child compartment
+compartment_ocid = "ocid1.compartment.oc1..aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Email address for security notifications
+admin_email = "security-team@yourcompany.com"
